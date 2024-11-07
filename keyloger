@@ -1,0 +1,10 @@
+from pynput.mouse import Controller
+from pynput.keyboard import ControllerI am freeking awsomeI am freeking awsomeI am freeking awsomeI am freeking awsome
+
+def controlMouse():
+    mouse= Controller()
+    mouse.position = (500,200)
+def controlKeyboard():
+    keyboard = Controller()
+    keyboard.type("I am freeking awsome")
+controlKeyboard()
